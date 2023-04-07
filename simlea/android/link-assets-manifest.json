@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Lato-Bold.ttf",
+      "sha1": "542498221d97bee5bdbccf86ee8890bf8e8005c9"
+    },
+    {
+      "path": "src/assets/fonts/Lato-Regular.ttf",
+      "sha1": "e923c72eda5e50a87e18ff5c71e9ef4b3b6455a3"
+    },
+    {
+      "path": "src/assets/fonts/RedHatDisplay-Black.ttf",
+      "sha1": "f42314811d1b567a9b54a2565f77d36662b4fe0b"
+    },
+    {
+      "path": "src/assets/fonts/RedHatDisplay-Bold.ttf",
+      "sha1": "d4c62f17bd50374d4796dfdfea0844701882ea96"
+    },
+    {
+      "path": "src/assets/fonts/RedHatDisplay-ExtraBold.ttf",
+      "sha1": "3c03474f863d912b4cff1500a982f4879964d354"
+    },
+    {
+      "path": "src/assets/fonts/RedHatDisplay-Light.ttf",
+      "sha1": "6bcf9928cfa278b9c44322fbedbea77592ce4bd0"
+    },
+    {
+      "path": "src/assets/fonts/RedHatDisplay-Medium.ttf",
+      "sha1": "f1f7171add35c1b47bdd6e456ad05a9499365c9b"
+    },
+    {
+      "path": "src/assets/fonts/RedHatDisplay-Regular.ttf",
+      "sha1": "a88bb6ead24bce67c673802676d453ad4d1a5ffd"
+    },
+    {
+      "path": "src/assets/fonts/RedHatDisplay-SemiBold.ttf",
+      "sha1": "6718a33e1f53787e1670a6a2e08519d97fcebfc2"
+    }
+  ]
+}

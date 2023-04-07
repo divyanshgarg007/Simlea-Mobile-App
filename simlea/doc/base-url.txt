@@ -1,0 +1,9 @@
+## For Development
+   
+   http://78.47.127.107/
+
+## For Production
+  
+   http://159.69.20.10/
+
+-Change baseURL in axios.js file on line no 7.

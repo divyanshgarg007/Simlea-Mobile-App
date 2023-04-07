@@ -1,0 +1,136 @@
+/* eslint-disable prettier/prettier */
+import {Platform, StyleSheet} from 'react-native';
+import GlobalStyle from '../../style/globalstyle';
+
+export const styles = StyleSheet.create({
+  container: {
+    // backgroundColor: '#FBFBFB',
+    paddingHorizontal: 15,
+    flex: 1,
+  },
+  loginHeadText: {
+    fontFamily: GlobalStyle.fontSet.RedHatDisplay700,
+    fontSize: 20,
+    color: '#1A1A1A',
+    textAlign: 'center',
+    marginTop: 55,
+    marginBottom: 10,
+  },
+  toggleRemember: {
+    flexDirection: 'row',
+    marginTop: 10,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  toggleBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginLeft: 24,
+  },
+  toggleTextRem: {
+    color: '#fff',
+    fontFamily: GlobalStyle.fontSet.RedHatDisplay500,
+    fontSize: 14,
+    marginLeft: 5,
+  },
+  toggleTextForgot: {
+    fontFamily: GlobalStyle.fontSet.RedHatDisplay500,
+    fontSize: 14,
+    color: '#30C6EA',
+    marginRight: 24,
+  },
+  errorText: {
+    fontFamily: GlobalStyle.fontSet.RedHatDisplay600,
+    fontSize: 12,
+    color: '#FF0000',
+    textAlign: 'center',
+    marginBottom: 5,
+  },
+  inputStyle: {
+    height: 40,
+    borderRadius: 4,
+    marginLeft: 24,
+    marginRight: 24,
+    borderWidth: 1,
+    borderColor: '#EAEAEA',
+    paddingHorizontal: 15,
+    marginBottom: 15,
+    color: '#fff',
+    fontFamily: GlobalStyle.fontSet.RedHatDisplay400,
+    fontSize: 14,
+  },
+  inputStyleLight: {
+    height: 40,
+    borderRadius: 4,
+    marginLeft: 24,
+    marginRight: 24,
+    borderWidth: 1,
+    borderColor: '#8F92A133',
+    paddingHorizontal: 15,
+    marginBottom: 15,
+    color: '#1a1a1a',
+    fontFamily: GlobalStyle.fontSet.RedHatDisplay400,
+    fontSize: 14,
+  },
+  passwordBox: {
+    position: 'relative',
+  },
+  eyeBox: {
+    position: 'absolute',
+    right: 15,
+    top: 8,
+    marginRight: 24,
+  },
+  eyeIcon: {
+    width: 24,
+    height: 24,
+    resizeMode: 'contain',
+  },
+  spaceBtns: {
+    flex: 0,
+    flexBasis: '25%',
+  },
+  confirmBtn: {
+    marginTop: 24,
+    backgroundColor: '#30C6EA',
+    borderRadius: 5,
+    marginLeft: 24,
+    marginRight: 24,
+    width: Platform.isPad === true ? '100%' : '88%',
+    height: 44,
+  },
+
+  actionTitle: {
+    color: '#FFFFFF',
+    textTransform: 'capitalize',
+    fontFamily: GlobalStyle.fontSet.RedHatDisplay700,
+    fontSize: 14,
+  },
+  themeBox: {
+    marginTop: 40,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  themeText: {
+    fontFamily: GlobalStyle.fontSet.RedHatDisplay400,
+    fontSize: 12,
+    color: '#1A1A1A',
+  },
+  switchBox: {
+    marginLeft: 14,
+    marginRight: 14,
+  },
+  loading: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#E2E0E0',
+    opacity: 0.8,
+    zIndex: 1,
+  },
+});

@@ -1,0 +1,33 @@
+{
+  "images" : [
+    {
+      "filename" : "Splash Screen.jpg",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Splash Screen 1.jpg",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Splash Screen 2.jpg",
+      "idiom" : "iphone",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "Splash Screen (iPad Mini)).png",
+      "idiom" : "ipad",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Splash Screen (iPad Mini)) 1.png",
+      "idiom" : "ipad",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

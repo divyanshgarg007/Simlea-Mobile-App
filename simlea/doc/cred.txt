@@ -1,0 +1,7 @@
+## Test server 
+code: 4PHc9fto
+username : remote
+password : Goodstein21!
+
+
+

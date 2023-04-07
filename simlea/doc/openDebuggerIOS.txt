@@ -1,0 +1,11 @@
+Update:
+:hermes_enabled => false
+in Podfile
+
+then Install pods cd ios && pod install && cd ..
+Build App npx react-native run-ios
+/////
+after debugging : :hermes_enabled => true
+
+then again Install pods cd ios && pod install && cd ..
+Build App npx react-native run-ios

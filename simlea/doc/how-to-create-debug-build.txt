@@ -1,0 +1,19 @@
+
+## How to create a debug build
+
+In your root project directory
+
+## Step: 1
+cd android && ./gradlew clean
+
+## Step: 2
+Make sure you have already directory android/app/src/main/assets/, if not create directory, after that create new file and save as index.android.bundle and put your file in like this android/app/src/main/assets/index.android.bundle
+
+## Step: 3
+Go back to back to root project directory
+npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+
+## Step 4
+cd android && ./gradlew assembleDebug
+
+Then you can get apk in android/app/build/outputs/apk/debug/app-debug.apk

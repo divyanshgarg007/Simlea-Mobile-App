@@ -1,0 +1,18 @@
+
+August 10, 2022
+# Release summary
+Released features:
+
+- Language Localization: Default Language will be German
+  - Change language from left drawer menu
+  - Change store from left drawer menu
+
+- Buying list 
+  - Add product to buying list
+  - Search product by query param while add product to buying list
+  - Show list of related query param items
+
+- Add product to cart 
+
+In-Progress
+- Deliver Separately

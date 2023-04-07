@@ -1,0 +1,16 @@
+export const NAVIGATION = {
+  eventList: 'EventList',
+  settings: 'Settings',
+  dashboard: 'Dashboard',
+  employee: 'Employees',
+  lists: 'Lists',
+  forms: 'Forms',
+  editForm: 'EditForm',
+  addNewRecord: 'AddNewRecord',
+  employeeDetails: 'EmployeeDetails',
+  waitlist: 'WaitList',
+  login: 'Login',
+  draft: 'Draft',
+  forgotPassword: 'ForgotPassword',
+  draftSave: 'DraftSave',
+};
